@@ -27,7 +27,8 @@ body {
   width: 40rem;
   height: 9rem;
   background-color: white;
-  box-shadow: 1px 1px 15px rgb(71, 71, 71);
+  /* box-shadow: 1px 1px 15px rgb(71, 71, 71); */
+  box-shadow: 1px 1px 15px darkgray;
   padding: 3rem;
   font-size: 1.25rem;
   font-weight: 500;
