@@ -1,0 +1,81 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 1.1rem;
+  line-height: 24px;
+  font-weight: 400;
+
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  text-shadow: .2px .2px .2px rgb(0, 0, 0);
+}
+
+.card {
+  position: relative;
+  width: 40rem;
+  height: 9rem;
+  background-color: white;
+  box-shadow: 1px 1px 15px rgb(71, 71, 71);
+  padding: 3rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-weight:lighter;
+}
+
+.quoteIcon {
+  position: absolute;
+  top: .5rem;
+  left: 1rem;
+  font-size: 5rem;
+  /* text-shadow: .6px .6px .6px darkgray; */
+}
+
+i {
+  text-shadow: .5px .5px .5px darkgray;
+}
+
+.textContainer {
+  position: absolute;
+  top: .1rem;
+  left: 6rem;
+  max-width: 38rem;
+  text-align: center;
+  /* text-shadow: .5px .5px .5px darkgray; */
+}
+
+.author {
+  position: relative;
+  text-align: right;
+  left: 1.3rem;
+  top: 3.5rem;
+  font-style: italic;
+}
+button {
+  position: absolute;
+  bottom: 1.4rem;
+  right: 2.5rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px 1px darkgray;
+  border: none;
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
